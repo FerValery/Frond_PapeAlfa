@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papelería Alfa — Todo para escuela, oficina y arte</title>
+    <meta
+      name="description"
+      content="Papelería Alfa: útiles escolares, material de oficina, arte y papelería. Encuentra lo que necesitas para crear, estudiar y organizar."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="paper-grain" aria-hidden="true"></div>
+
+    <header class="header" id="inicio">
+      <div class="container nav">
+        <a class="brand" href="#inicio">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>
+            <strong>Papelería Alfa</strong>
+            <small>desde 2018</small>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="#categorias">Categorías</a>
+          <a href="#productos">Productos</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Útiles · Oficina · Arte</p>
+            <h1>Todo lo que necesitas para crear, estudiar y organizar.</h1>
+            <p class="lede">
+              En Papelería Alfa encuentras cuadernos, colores, material de oficina y
+              papelería lista para el regreso a clases o el día a día del trabajo.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#productos">Ver productos</a>
+              <a class="btn btn-ghost" href="#contacto">Visítanos</a>
+            </div>
+            <ul class="hero-stats">
+              <li><strong>+800</strong> productos</li>
+              <li><strong>Marcas</strong> de confianza</li>
+              <li><strong>Asesoría</strong> en tienda</li>
+            </ul>
+          </div>
+          <div class="hero-stage" aria-hidden="true">
+            <div class="desk">
+              <div class="notebook">
+                <div class="notebook-spine"></div>
+                <div class="notebook-page">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="pencil pencil-yellow"></div>
+              <div class="pencil pencil-red"></div>
+              <div class="eraser"></div>
+              <div class="tape"></div>
+              <div class="sticky">Lista Alfa</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="categorias">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Explora</p>
+            <h2>Categorías para cada momento</h2>
+          </div>
+          <div class="category-grid">
+            <article class="category-card">
+              <span class="icon">✎</span>
+              <h3>Escritura</h3>
+              <p>Plumas, lápices, marcadores y correctores para el día a día.</p>
+            </article>
+            <article class="category-card">
+              <span class="icon">▤</span>
+              <h3>Escolar</h3>
+              <p>Cuadernos, mochilas, colores y kits de regreso a clases.</p>
+            </article>
+            <article class="category-card">
+              <span class="icon">▣</span>
+              <h3>Oficina</h3>
+              <p>Folders, grapas, etiquetas y todo para organizar el trabajo.</p>
+            </article>
+            <article class="category-card">
+              <span class="icon">◐</span>
+              <h3>Arte</h3>
+              <p>Acuarelas, pinceles, cartulinas y material para crear.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="productos">
+        <div class="container">
+          <div class="section-head row">
+            <div>
+              <p class="eyebrow">Destacados</p>
+              <h2>Lo más pedido esta temporada</h2>
+            </div>
+            <div class="filters" role="tablist">
+              <button class="chip is-active" data-filter="todos" type="button">Todos</button>
+              <button class="chip" data-filter="escolar" type="button">Escolar</button>
+              <button class="chip" data-filter="oficina" type="button">Oficina</button>
+              <button class="chip" data-filter="arte" type="button">Arte</button>
+            </div>
+          </div>
+          <div class="product-grid" id="productos-lista"></div>
+        </div>
+      </section>
+
+      <section class="section" id="nosotros">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">Nuestra historia</p>
+            <h2>Una papelería cercana, con lo esencial y lo nuevo.</h2>
+            <p>
+              Papelería Alfa nació para que encontrar útiles no sea una carrera.
+              Traemos marcas conocidas, precios claros y atención de mostrador
+              para estudiantes, oficinas y talleres creativos.
+            </p>
+            <ul class="checklist">
+              <li>Marcas como Scribe, Pilot, Crayola, Bic y Paper Mate</li>
+              <li>Asesoría para listas escolares y compras de oficina</li>
+              <li>Pedidos especiales y reposición constante</li>
+            </ul>
+          </div>
+          <aside class="hours-card">
+            <h3>Horario de tienda</h3>
+            <dl>
+              <div><dt>Lunes a viernes</dt><dd>9:00 – 19:00</dd></div>
+              <div><dt>Sábado</dt><dd>9:00 – 15:00</dd></div>
+              <div><dt>Domingo</dt><dd>Cerrado</dd></div>
+            </dl>
+            <p class="hours-note">También armamos pedidos para escuelas y empresas.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="container cta-inner">
+          <h2>¿Lista escolar o pedido de oficina?</h2>
+          <p>Escríbenos y te armamos el pedido con lo que sí vas a usar.</p>
+          <a class="btn btn-light" href="#contacto">Solicitar cotización</a>
+        </div>
+      </section>
+
+      <section class="section" id="contacto">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Contacto</p>
+            <h2>Pasa a la tienda o déjanos un mensaje.</h2>
+            <ul class="contact-list">
+              <li><strong>Dirección</strong> Calle Principal 204, Centro</li>
+              <li><strong>Teléfono</strong> 555 123 4567</li>
+              <li><strong>Correo</strong> hola@papealfa.local</li>
+            </ul>
+          </div>
+          <form class="contact-form" id="form-contacto">
+            <label>
+              Nombre
+              <input type="text" name="nombre" required placeholder="Tu nombre" />
+            </label>
+            <label>
+              Correo
+              <input type="email" name="correo" required placeholder="tucorreo@email.com" />
+            </label>
+            <label>
+              Mensaje
+              <textarea name="mensaje" rows="4" required placeholder="¿Qué necesitas?"></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Papelería Alfa. Todos los derechos reservados.</p>
+        <a href="#inicio">Volver arriba</a>
+      </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
