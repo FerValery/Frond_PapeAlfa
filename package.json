@@ -1,0 +1,16 @@
+{
+  "name": "papealfa",
+  "version": "1.0.0",
+  "description": "Sitio promocional de Papelería Alfa",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["papeleria", "frontend", "nodejs"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
